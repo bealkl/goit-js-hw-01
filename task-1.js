@@ -1,10 +1,10 @@
-{
-  let name = 'Генератор защитного поля';
-  let price = 1000;
-  let formOut = 'Выбран «' + name + '», цена за штуку ' + price + ' кредитов';
+//GOIT javascript task 1
 
-  console.log(formOut);
+// use strict;
 
-  price = 2000;
-  console.log(formOut);
-}
+const name = 'Генератор защитного поля';
+let price = 1000;
+console.log(` Выбран «${name}», цена за штуку ${price} кредитов'`);
+
+price = 2000;
+console.log(` Выбран «${name}», цена за штуку ${price} кредитов'`);

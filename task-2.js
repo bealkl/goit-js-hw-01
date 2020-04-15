@@ -1,19 +1,21 @@
-{
-  const total = 100;
+//GOIT javascript task 2
 
-  // check 001
-  let ordered = 20;
+// use strict;
 
-  if (ordered < total) console.log('На складе недостаточно твоаров!');
-  else console.log('Заказ оформлен, с вами свяжется менеджер');
+const total = 100;
 
-  // check 002
-  ordered = 80;
-  if (ordered < total) console.log('На складе недостаточно твоаров!');
-  else console.log('Заказ оформлен, с вами свяжется менеджер');
+// check 001
+let ordered = 20;
 
-  // check 003
-  ordered = 130;
-  if (ordered < total) console.log('На складе недостаточно твоаров!');
-  else console.log('Заказ оформлен, с вами свяжется менеджер');
-}
+if (ordered < total) console.log('На складе недостаточно твоаров!');
+else console.log('Заказ оформлен, с вами свяжется менеджер');
+
+// check 002
+ordered = 80;
+if (ordered < total) console.log('На складе недостаточно твоаров!');
+else console.log('Заказ оформлен, с вами свяжется менеджер');
+
+// check 003
+ordered = 130;
+if (ordered < total) console.log('На складе недостаточно твоаров!');
+else console.log('Заказ оформлен, с вами свяжется менеджер');
