@@ -1,6 +1,5 @@
 //GOIT javascript task 4
-
-// use strict;
+'use strict';
 
 let credits = 23580;
 let totalPrice;

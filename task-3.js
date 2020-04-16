@@ -1,6 +1,5 @@
 //GOIT javascript task 3
-
-// use strict;
+'use strict';
 
 const ADMIN_PASSWORD = 'jqueryismyjam';
 let message;

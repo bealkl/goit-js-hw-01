@@ -1,6 +1,5 @@
 //GOIT javascript task 2
-
-// use strict;
+'use strict';
 
 const total = 100;
 

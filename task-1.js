@@ -1,6 +1,5 @@
 //GOIT javascript task 1
-
-// use strict;
+'use strict';
 
 const name = 'Генератор защитного поля';
 let price = 1000;
