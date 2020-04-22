@@ -7,7 +7,7 @@ let total = 0;
 
 do {
   input = prompt('Enter the number to add. Click "Cancel" to complete.');
-  if (input == null) {
+  if (input === null) {
     continue;
   } else {
     input = Number(input);
@@ -18,6 +18,6 @@ do {
     }
   }
   console.log(`total=${total} input=${input}`);
-} while (input != null);
+} while (input !== null);
 
 alert(`Общая сумма чисел равна ${total}`);

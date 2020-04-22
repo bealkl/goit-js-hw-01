@@ -25,7 +25,7 @@ switch (answer) {
   default:
     credits = 0;
 }
-if (credits == 0) {
+if (credits === 0) {
   console.log('В вашей стране доставка не доступна');
 } else {
   console.log(`Доставка в ${answer} будет стоить ${credits} кредитов`);
